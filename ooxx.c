@@ -16,7 +16,7 @@ struct player{  //定義 9宮格
 	char n9;
 };
 struct player p1; //定義玩家 
-int main(void){
+int main(void){         //主函式
 	system("title 專題");	
 	system("color 0a");
 	void Goto(int x,int y,char* word);
@@ -43,7 +43,7 @@ int main(void){
 		scanf("%d",&i);
 	}	
 }
-int c1(void){
+int c1(void){   
 	srand(time(NULL));
 	int ju[9]={0};
 	int i=0,j=0,k=0,pa,m=0;
